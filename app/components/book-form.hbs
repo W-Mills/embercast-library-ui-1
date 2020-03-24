@@ -1,0 +1,36 @@
+<form onsubmit={{action "submitChanges"}}>
+  <div class="field">
+    <label>Title:</label>
+    {{input type="text" placeholder="Title" value=title}}
+  </div>
+  
+  <div class="field">
+    <label>ISBN:</label>
+    {{input type="text" placeholder="ISBN" value=isbn}}
+  </div>
+  
+  <div class="field">
+    <label>Publish Date:</label>
+    {{input type="date" placeholder="Publish Date" value=publishDate}}
+  </div>
+
+
+  <div class="field">
+    <label>Author:</label>
+    <p class="control">
+      {{!-- if this causes error: "<PowerSelect> requires an @onChange function" => lower power-select version in package.json to 2. something --}}
+      {{#power-select onchange=(action (mut author)) selected=author search=(action "searchAuthor") as |author|}}
+        {{author.last}}, {{author.first}}
+      {{/power-select}}
+    </p>
+  </div>
+
+  <div class="field">
+    <label>Don't See Your Author?</label>
+    {{new-author-modal onsave=(action (mut author))}}
+  </div>
+
+  <div class="form-footer">
+    <button type="submit" class="btn-submit">save</button>
+  </div>
+</form>
