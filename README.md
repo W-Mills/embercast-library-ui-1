@@ -1,3 +1,6 @@
+# From following this EmberCast: https://drive.google.com/drive/folders/11PrW9RjjG-58ikvX6L_w37yJGdqLhtIa
+- There is also a Rails repo for the backend API server
+
 # library-ui
 
 This README outlines the details of collaborating on this Ember application.
