@@ -4608,6 +4608,15 @@ ember-basic-dropdown@^1.1.0:
     ember-cli-htmlbars "^3.0.1"
     ember-maybe-in-element "^0.2.0"
 
+ember-can@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ember-can/-/ember-can-3.0.0.tgz#86988e2ec35ece0ac7b28f7c436228485911528a"
+  integrity sha512-URgfnVIe2O6bkgC1OAKGuKwbNklwONpT4MbQM17g7v0IKoHW+k6mL1iGQzBIPdjTBtlwRJNAl6nddYE8T5UVig==
+  dependencies:
+    ember-cli-babel "^7.13.2"
+    ember-cli-htmlbars "^4.2.1"
+    ember-inflector "^3.0.1"
+
 ember-cli-app-version@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.2.0.tgz#7b9ad0e1b63ae0518648356ee24c703e922bc26e"
@@ -4729,7 +4738,7 @@ ember-cli-htmlbars@^3.0.1:
     json-stable-stringify "^1.0.1"
     strip-bom "^3.0.0"
 
-ember-cli-htmlbars@^4.2.2:
+ember-cli-htmlbars@^4.2.1, ember-cli-htmlbars@^4.2.2:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.2.3.tgz#ca1a4ce3806594f0a69a1ada3eed749a125cc2bf"
   integrity sha512-AA5N5a7T+9Bc3m+5X076WFYIN4EQL0o/g8acPBZnEolFJhc3TmnSlWay4JwEuvszA1MLFKmZET/VD9CfRw8+EQ==

@@ -1,4 +1,4 @@
-// for ember-fire transitions, not working with this build
+// // for ember-fire transitions, not working with this build
 
 // const duration = 600;
 // const slidingCardOut = [
